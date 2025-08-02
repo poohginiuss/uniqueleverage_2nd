@@ -21,11 +21,11 @@ const HeaderPrimaryDark = (props: ComponentProps<typeof Header>) => {
             {...props}
             className={cx(
                 "bg-[#090717] md:bg-[#090717]", // custom background and border bottom
-                "[&_nav>ul>li>a]:text-secondary_on-brand",
-                "[&_nav>ul>li>a]:hover:text-secondary_on-brand",
-                "[&_nav>ul>li>button]:text-secondary_on-brand",
-                "[&_nav>ul>li>button]:hover:text-secondary_on-brand",
-                "[&_nav>ul>li>button>svg]:text-fg-brand-secondary_alt",
+                "[&_nav>ul>li>a]:text-white",
+                "[&_nav>ul>li>a]:hover:text-white",
+                "[&_nav>ul>li>button]:text-white",
+                "[&_nav>ul>li>button]:hover:text-white",
+                "[&_nav>ul>li>button>svg]:text-white",
                 "[&_svg_path.fill-fg-primary]:fill-fg-white",
                 props.className
             )}
