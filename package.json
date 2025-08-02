@@ -1,0 +1,46 @@
+{
+    "name": "untitledui-nextjs-starter-kit",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "next build",
+        "start": "next start",
+        "lint:check": "eslint src/components",
+        "type-check": "tsc --noEmit",
+        "prettier": "prettier . --write",
+        "prettier:check": "prettier . --check",
+        "test": "npm run type-check && npm run lint:check && npm run prettier:check"
+    },
+    "dependencies": {
+        "@tailwindcss/postcss": "^4.1.11",
+        "@tailwindcss/typography": "^0.5.16",
+        "@untitledui/file-icons": "^0.0.7",
+        "@untitledui/icons": "^0.0.19",
+        "motion": "^12.23.5",
+        "next": "^15.3.5",
+        "next-themes": "^0.4.6",
+        "react": "19.0.0",
+        "react-aria": "^3.41.1",
+        "react-aria-components": "^1.10.1",
+        "react-dom": "19.0.0",
+        "react-hotkeys-hook": "^4.6.2",
+        "react-icons": "^5.5.0",
+        "tailwind-merge": "^3.3.1",
+        "tailwindcss": "^4.1.11",
+        "tailwindcss-animate": "^1.0.7",
+        "tailwindcss-react-aria-components": "^2.0.0"
+    },
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+        "@types/node": "^22.16.0",
+        "@types/react": "^19.1.8",
+        "@types/react-dom": "^19.1.6",
+        "eslint": "^9.32.0",
+        "postcss": "^8.5.6",
+        "postcss-loader": "^8.1.1",
+        "prettier": "^3.6.2",
+        "prettier-plugin-tailwindcss": "^0.6.13",
+        "typescript": "^5.8.3"
+    }
+}
