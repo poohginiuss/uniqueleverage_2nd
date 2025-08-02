@@ -246,9 +246,9 @@ export const DropdownMenuSimpleTwoColumnsWithFooter = () => {
                 </div>
 
                 <div className="flex flex-col items-start gap-5 bg-secondary px-4 py-5 md:flex-row md:items-center md:gap-3 md:rounded-lg md:px-6 md:py-5">
-                    <Button color="link-color" size="lg" href="#">
+                    {/* <Button color="link-color" size="lg" href="#">
                         Sign up for free
-                    </Button>
+                    </Button> */}
                     <Button color="link-color" size="lg" className="md:ml-auto" href="#" iconLeading={MessageChatCircle}>
                         Book a Demo
                     </Button>

@@ -50,10 +50,10 @@ export const CTASimpleCentered = () => {
                         Just connect your feed, set your settings, and let it run — your inventory updates itself from here. It’s really that simple.{" "}
                     </p>
                     <div className="mt-8 flex flex-col-reverse gap-3 self-stretch md:mt-8 md:flex-row md:self-center">
-                        <Button color="secondary" size="xl">
+                        {/* <Button color="secondary" size="xl">
                             Book demo
-                        </Button>
-                        <Button size="xl">Start free trial</Button>
+                        </Button> */}
+                        <Button size="xl">Get Started</Button>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 gap-6 py-24 md:grid-cols-2 md:py-12">

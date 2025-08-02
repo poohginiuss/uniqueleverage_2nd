@@ -5,8 +5,8 @@ import { useRef, useState } from "react";
 import { ChevronDown } from "@untitledui/icons";
 import { Button as AriaButton, Dialog as AriaDialog, DialogTrigger as AriaDialogTrigger, Popover as AriaPopover } from "react-aria-components";
 import { Button } from "@/components/base/buttons/button";
-import { UntitledLogo } from "@/components/foundations/logo/untitledui-logo";
-import { UntitledLogoMinimal } from "@/components/foundations/logo/untitledui-logo-minimal";
+import { UntitledLogo } from "@/components/foundations/logo/untitledui-logo-for-black";
+import { UntitledLogoMinimal } from "@/components/foundations/logo/untitledui-logo-minimal-for-black";
 import {
     DropdownMenuSimpleTwoColumnsWithFooter
 } from "@/components/marketing/header-navigation/dropdown-header-navigation";
@@ -102,9 +102,9 @@ export const Header = ({ items = headerNavItems, isFullWidth, isFloating, classN
         <header
             ref={headerRef}
             className={cx(
-                "relative flex h-18 w-full items-center justify-center md:h-20",
+                "relative flex h-18 w-full items-center justify-center md:h-20 bg-[#090717]",
                 isFloating && "h-16 md:h-19 md:pt-3",
-                isFullWidth && !isFloating ? "has-aria-expanded:bg-primary" : "max-md:has-aria-expanded:bg-primary",
+                isFullWidth && !isFloating ? "has-aria-expanded:bg-[#090717]" : "max-md:has-aria-expanded:bg-[#090717]",
                 className,
             )}
         >
@@ -177,7 +177,7 @@ export const Header = ({ items = headerNavItems, isFullWidth, isFloating, classN
                     </div>
 
                     <div className="hidden items-center gap-3 md:flex">
-                        <Button color="tertiary" size={isFloating ? "md" : "lg"}>
+                        <Button color="tertiaryforblack" size={isFloating ? "md" : "lg"}>
                             Log in
                         </Button>
                         <Button color="primary" size={isFloating ? "md" : "lg"}>

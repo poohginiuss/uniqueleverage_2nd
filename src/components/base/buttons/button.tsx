@@ -82,6 +82,13 @@ export const styles = sortCx({
                 "*:data-icon:text-fg-quaternary hover:*:data-icon:text-fg-quaternary_hover",
             ].join(" "),
         },
+        tertiaryforblack: {
+            root: [
+                "text-secondary_on-brand hover:bg-primary_hover hover:text-tertiary_hover data-loading:bg-primary_hover",
+                // Icon styles
+                "*:data-icon:text-fg-quaternary hover:*:data-icon:text-fg-quaternary_hover",
+            ].join(" "),
+        },
         "link-gray": {
             root: [
                 "justify-normal rounded-xs p-0! text-tertiary hover:text-tertiary_hover",
