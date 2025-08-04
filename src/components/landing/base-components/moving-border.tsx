@@ -32,7 +32,7 @@ export function NewButton({
   return (
     <Component
       className={cn(
-        "relative h-11 w-83 overflow-hidden bg-transparent p-[3px] text-xl",
+        "relative h-12 w-85 overflow-hidden bg-transparent p-[3px] text-xl",
         containerClassName,
       )}
       style={{
@@ -80,7 +80,7 @@ export function NewButton({
 
 export const MovingBorder = ({
   children,
-  duration = 5000,
+  duration = 3500,
   rx,
   ry,
   ...otherProps

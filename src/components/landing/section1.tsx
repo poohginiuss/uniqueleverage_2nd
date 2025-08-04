@@ -58,7 +58,7 @@ export const HeaderSection = () => {
                             {/* Foreground Content */}
                             <div className="relative z-10 flex items-center gap-1">
                                 {/* Badge with Pulse */}
-                                <span className="uppercase text-xs font-bold bg-brand-700 text-white px-2 py-0.5 rounded-full animate-pulse">
+                                <span className="uppercase text-sm font-bold bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-2 py-0.5 rounded-full">
                                 new
                                 </span>
 
