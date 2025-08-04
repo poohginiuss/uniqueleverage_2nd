@@ -58,12 +58,12 @@ export const HeaderSection = () => {
                             {/* Foreground Content */}
                             <div className="relative z-10 flex items-center gap-1">
                                 {/* Badge with Pulse */}
-                                <span className="uppercase text-sm font-bold bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-2 py-0.5 rounded-full">
+                                <span className="uppercase text-xs font-bold bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-2 py-0.5 rounded-full">
                                 new
                                 </span>
 
                                 {/* Text with Slide-in Animation */}
-                                <span className="text-sm font-bold text-white transform transition-all duration-500 group-hover:translate-x-1 group-hover:opacity-100 opacity-90">
+                                <span className="text-sm md:text-md font-bold text-white transform transition-all duration-500 group-hover:translate-x-1 group-hover:opacity-100 opacity-90">
                                 Use AI to chat with your ads data
                                 </span>
 
