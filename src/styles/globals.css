@@ -60,3 +60,9 @@ input[type="number"] {
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
+
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}
